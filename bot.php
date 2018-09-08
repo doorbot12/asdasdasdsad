@@ -872,19 +872,19 @@ if ($command == '/song-unduh') {
                           'template' =>  
                           array ( 
                             'type' => 'buttons', 
-                            'thumbnailImageUrl' => 'https://image.prntscr.com/image/K0b2P-S6RO6fzFqOVwkgtw.jpg', 
+                            'thumbnailImageUrl' => 'https://geotimes.co.id/wp-content/uploads/2017/10/SMBOL-STOP-4.jpg', 
                             'imageAspectRatio' => 'rectangle', 
                             'imageSize' => 'cover', 
                             'imageBackgroundColor' => '#FFFFFF', 
-                            'title' => 'Kevin Juliano', 
-                            'text' => 'Creator Panda', 
+                            'title' => 'Mr.Gepeng / Aby Manyun', 
+                            'text' => 'Creator R.K', 
                             'actions' =>  
                             array ( 
                               0 =>  
                               array ( 
                                 'type' => 'uri', 
                                 'label' => 'Contact', 
-                                'uri' => 'https://line.me/ti/p/~kevin15072003juli', 
+                                'uri' => 'http://line.me/ti/p/Umo3dH4xoH', 
                               ), 
                             ), 
                           ), 
