@@ -316,7 +316,7 @@ function story($keyword) {
 
 //show menu, saat join dan command /menu
 if ($type == 'join' || $command == '/keyword') {
-    $text = "?????????????????\n                 •MENU PANDA•\n?????????????????\n\n/shalat\n/cuaca\n/youtube\n/song\n/say\n/ig\n/ig-vid\n/ig-pict\n/ig-dp\n/apakah\n/quote\n/pendekin\n/jam\n/owner\n\nNb: ketik /keyword untuk mengetauhi keyword panda";
+    $text = "☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆\n    •MENU PANDA•\n☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆\n\n/shalat\n/cuaca\n/youtube\n/song\n/say\n/ig\n/ig-vid\n/ig-pict\n/ig-dp\n/apakah\n/quote\n/pendekin\n/jam\n/owner\n\nNb: ketik /keyword untuk mengetauhi keyword panda";
     $balas = array(
         'replyToken' => $replyToken,
         'messages' => array(
@@ -736,7 +736,7 @@ if ($command == '/jam') {
                     array ( 
                       0 =>  
                       array ( 
-                        'thumbnailImageUrl' => 'https://image.prntscr.com/image/K0b2P-S6RO6fzFqOVwkgtw.jpg', 
+                        'thumbnailImageUrl' => '', 
                         'imageBackgroundColor' => '#FFFFFF', 
                         'title' => 'WIB', 
                         'text' => 'Jam Indonesia', 
@@ -758,7 +758,7 @@ if ($command == '/jam') {
                       ), 
                       1 =>  
                       array ( 
-                        'thumbnailImageUrl' => 'https://image.prntscr.com/image/K0b2P-S6RO6fzFqOVwkgtw.jpg', 
+                        'thumbnailImageUrl' => 'https://geotimes.co.id/wp-content/uploads/2017/10/SMBOL-STOP-4.jpg', 
                         'imageBackgroundColor' => '#000000', 
                         'title' => 'WIT', 
                         'text' => 'Jam Indonesia', 
@@ -780,7 +780,7 @@ if ($command == '/jam') {
                       ), 
 					  2 =>  
                       array ( 
-                        'thumbnailImageUrl' => 'https://image.prntscr.com/image/K0b2P-S6RO6fzFqOVwkgtw.jpg', 
+                        'thumbnailImageUrl' => 'https://geotimes.co.id/wp-content/uploads/2017/10/SMBOL-STOP-4.jpg', 
                         'imageBackgroundColor' => '#000000', 
                         'title' => 'WITA', 
                         'text' => 'Jam Indonesia', 
@@ -835,7 +835,7 @@ if ($command == '/song-unduh') {
                           'template' =>  
                           array ( 
                             'type' => 'buttons', 
-                            'thumbnailImageUrl' => 'https://image.prntscr.com/image/K0b2P-S6RO6fzFqOVwkgtw.jpg', 
+                            'thumbnailImageUrl' => 'https://geotimes.co.id/wp-content/uploads/2017/10/SMBOL-STOP-4.jpg', 
                             'imageAspectRatio' => 'rectangle', 
                             'imageSize' => 'cover', 
                             'imageBackgroundColor' => '#FFFFFF', 
