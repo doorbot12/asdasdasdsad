@@ -1,0 +1,1 @@
+daftar_jurus = {'naga kacang':'nagakacang.txt'}
