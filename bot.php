@@ -483,18 +483,16 @@ if($message['type']=='text') {
         );
 }
         if ($command == '/jurus') {
-            if ($command2 == daftar_jurus) {
-            $result = jurus($options);
-            $balas = array(
-                'replyToken' => $replyToken,
-                'messages' => array(
-                    array(
-                        'type' => 'text',
-                        'text' => $result
-                    )
+        $result = jurus($options);
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array(
+                    'type' => 'text',
+                    'text' => $result
                 )
-            );
-         }
+            )
+        );
     }
 	if ($command == '/quote') {
         $result = quote($options);
