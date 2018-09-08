@@ -302,6 +302,16 @@ function song($keyword) {
     $parsed['unduh'] = (string) $json['0']['4']; 
     return $parsed; 
 } 
+function jurus($keyword) {
+        $keyword2 = str_replace("-","&b=",$keyword);
+    $uri = "https://barusan.herokuapp.com/data/jurus.txt?a=" .$keyword2;
+
+    $response = Unirest\Request::get("$uri");
+	
+    $json = json_decode($response->raw_body, true);
+    $result = $json['img'];
+    return $result;
+}
 function story($keyword) { 
 	$keyword2 = str_replace("-","&b=",$keyword);
     $uri = "https://yuubase.herokuapp.com/story.php?a=" . $keyword2; 
