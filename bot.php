@@ -316,7 +316,7 @@ function story($keyword) {
 
 //show menu, saat join dan command /menu
 if ($type == 'join' || $command == '/keyword') {
-    $text = "☆☆☆☆☆☆☆☆☆☆☆\n    •MENU RUMAH KITA•\n☆☆☆☆☆☆☆☆☆☆☆\n\n/shalat\n/cuaca\n/youtube\n/song\n/say\n/ig\n/ig-vid\n/ig-pict\n/ig-dp\n/apakah\n/quote\n/pendekin\n/jam\n/owner\n\nNb: ketik /keyword untuk mengetauhi keyword panda";
+    $text = " ☆☆☆☆☆☆☆☆☆☆☆\n    •MENU RUMAH KITA•\n ☆☆☆☆☆☆☆☆☆☆☆\n\n/shalat\n/cuaca\n/youtube\n/song\n/say\n/ig\n/ig-vid\n/ig-pict\n/ig-dp\n/apakah\n/quote\n/pendekin\n/jam\n/owner\n\nNb: ketik /keyword untuk mengetauhi keyword panda";
     $balas = array(
         'replyToken' => $replyToken,
         'messages' => array(
