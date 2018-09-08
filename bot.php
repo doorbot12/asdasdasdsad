@@ -875,7 +875,7 @@ if ($command == '/song-unduh') {
                             'thumbnailImageUrl' => 'https://geotimes.co.id/wp-content/uploads/2017/10/SMBOL-STOP-4.jpg', 
                             'imageAspectRatio' => 'rectangle', 
                             'imageSize' => 'cover', 
-                            'imageBackgroundColor' => '#FFFFFF', 
+                            'imageBackgroundColor' => '#00FF00', 
                             'title' => 'Mr.Gepeng / Aby Manyun', 
                             'text' => 'Creator R.K', 
                             'actions' =>  
