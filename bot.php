@@ -154,15 +154,6 @@ function tts($keyword) {
     $result = $uri; 
     return $result; 
 }
-function jurus(keyword){
-    $uri = "https://barusan.herokuapp.com/data/jurus.txt";
-
-        $hasil = file_get_content("$uri);
-
-    $response = Unirest\Request::get($uri");
-        $result = str_replace("<br />","",$hasil);
-    return $result;
-}
 function quote($keyword) {
     $uri = "https://pesananmaskevin.herokuapp.com/data/quote.php";
 	
@@ -481,19 +472,7 @@ if($message['type']=='text') {
 				)
             )
         );
-}
-        if ($command == '/jurus') {
-        $result = jurus($options);
-        $balas = array(
-            'replyToken' => $replyToken,
-            'messages' => array(
-                array(
-                    'type' => 'text',
-                    'text' => $result
-                )
-            )
-        );
-    }
+}         
 	if ($command == '/quote') {
         $result = quote($options);
         $balas = array(
