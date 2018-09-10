@@ -134,6 +134,14 @@ function ig_dp($keyword) {
     $result = $json['profile_pic_url_hd']; 
     return $result; 
 }
+function gombalin($keyword){
+    $list_jwb = array(
+                'Kamu emang murah senyum, tapi senyum kamu sama sekali nggak murahan.',
+                'Cintaku ke kamu tuh kaya kecoa. Ga punah dimakan zaman.'
+    $jaws = array_rand($list_jwb);
+    $jawab = $list_jwb[$jaws];
+    return($jawab);
+}
 function apakah($keyword){
     $list_jwb = array(
 		'Ya',
@@ -447,6 +455,18 @@ if($message['type']=='text') {
 				) 
 			); 
 	}
+            if ($command == '/gombalin') {
+        $result = gombalin($options);
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array(
+                    'type' => 'text',
+                    'text' => $result
+                )
+             )
+        );
+   }
 	    if ($command == '/apakah') {
         $result = apakah($options);
         $balas = array(
