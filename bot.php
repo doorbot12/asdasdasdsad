@@ -137,6 +137,30 @@ function ig_dp($keyword) {
 function gombalin($keyword){
     $list_jwb = array(
                 'Kamu emang murah senyum, tapi senyum kamu sama sekali nggak murahan.',
+                'Sejak mengenalmu bawaannya aku pengen belajar terus, Belajar menjadi yang terbaik buat kamu.',
+                'Bagaimana kalau kita berdua jadi komplotan perampok?. Aku merampok hatimu dan kamu merampas hatiku.',
+                'Kamu tau gak? Kenapa kalau aku menghafal lihatnya ke atas?, soalnya kalau merem langsung kebanyang wajahmu.',
+                'Maksud hati memeluk gunung, apalah daya aku lebih suka memeluk kamu.',
+                'Kamu tu kayak warteg, sederhana namun berkualitas.',
+                'Biarpun kamu gendut, tapi kamu tetep muat kok masuk di hatiku.',
+                'Cintaku kepadamu itu bagaikan metabolisme, yang gak akan berhenti sampai mati.',
+                'Kamu tau gak apa persamaannya kamu sama AC? Sama-sama bikin aku sejuk.',
+                'Aku gak akan ngiler kalau hanya karena harta, tahta, dan wanita. Aku hanya ngiler… saat tidur miring.',
+                'Jika aku jadi wakil rakyat sepertinya kita bakal gagal deh? Gimana aku mikirin rakyat, kalau yang ada dipikiranku hanyalah KAMU.',
+                'Aku hanya ingin hidup cukup. Cukup lihat senyummu setiap hari.',
+                'Cita-citaku dulu pengen jadi dokter tapi setelah mengenalmu, berubah jadi ingin membahagiakanmu.',
+                'Mungkin aku ditakdirkan buta, buta untuk melihat wanita lain selain dirimu, I love You.',
+                'Aku rela ikut lomba lari keliling dunia, asalkan engkau yang menjadi garis finishnya.',
+                'Kalau orang kebutuhan primernya ada tiga yaitu sandang pangan dan papan, tapi kalau aku : kamu, kamu, dan kamu.',
+                'Bahu jalan untuk darurat, Bahu aku untuk kamu.',
+                'Coba kamu lihat matahari terbenam, dia begitu indah. Namun keindahannya tidak dapat menandingi keindahan dirimu.',
+                'Aku harap kamu jangan pernah pergi lagi ya? Sebab jika aku berpisah denganmu sedetik saja bagaikan 1000 tahun rasanya.',
+                'Meskipun kamu kurus, kamu adalah hal terberat yang ada di hatiku.',
+                'Jangan pernah mengatakan sulit, sebab tidak ada yang sulit bila dilakukan dengan sepenuh hati.',
+                'Kursi makin lama makin antik, Kalau kamu makin lama makin cantik.',
+                'Jika kamu bertanya hal terindah yang pernah singgah dikehidupanku, aku akan menjawab hal itu adalah kamu.',
+                'Jika kita ditakdirkan untuk bersama, aku tidak ingin hanya sebatas janji dan kata setia darimu, karena cinta butuh kepastian yang nyata.',
+                'Aku tidak perlu menjadi yang pertama bagimu, aku hanya ingin aku menjadi yang terakhir bagimu.',
                 'Cintaku ke kamu tuh kaya kecoa. Ga punah dimakan zaman.'
                 );
     $jaws = array_rand($list_jwb);
