@@ -138,6 +138,7 @@ function gombalin($keyword){
     $list_jwb = array(
                 'Kamu emang murah senyum, tapi senyum kamu sama sekali nggak murahan.',
                 'Cintaku ke kamu tuh kaya kecoa. Ga punah dimakan zaman.'
+                );
     $jaws = array_rand($list_jwb);
     $jawab = $list_jwb[$jaws];
     return($jawab);
