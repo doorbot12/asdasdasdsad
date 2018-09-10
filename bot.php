@@ -134,19 +134,6 @@ function ig_dp($keyword) {
     $result = $json['profile_pic_url_hd']; 
     return $result; 
 }
-//function Gombalin($keyword){
-//    $list_jwb = array(
-//                'Kamu tau gak persamaan kamu dengan kaki aku? sama-sama bikin aku gak bisa melangkah kalo kehilangan.',
-//                'Kamu emang murah senyum, tapi senyum kamu sama sekali nggak murahan.',
-//                'Aneh, setiap kali aku googling dan search kata ‘CANTIK+MANIS’ kok keluarnya nama dan foto kamu semua sih.',
-//                'Tau gak apa persamaan kamu dan skripsi...\nKalau skripsi itu tugas akhir dalam kuliahku,,,\nDan kalau kamu pasangan terakhir dalam hidupku.',
-//                'Kamu ngapain sih belajar reaksi kimia, mending belajar reaksi kamu pas aku nyatain cinta.',
- //               'Tau gak kamu...\nKalau kuliah itu butuh skripsi, sedangkan kalau kita cuma perlu resepsi.',
-//                'Hari minggu itu weekend, tapi kalau cinta kita will never end.'
- //   $jaws = array_rand($list_jwb);
-//    $jawab = $list_jwb[$jaws];
-//    return($jawab);
-//}
 function apakah($keyword){
     $list_jwb = array(
 		'Ya',
@@ -460,18 +447,6 @@ if($message['type']=='text') {
 				) 
 			); 
 	}
- //           if ($command == 'Gombalin') {
- //       $result = apakah($options);
-//        $balas = array(
- //           'replyToken' => $replyToken,
-  //          'messages' => array(
- //               array(
-  //                  'type' => 'text',
- //                   'text' => $result
-//                )
-            )
-//        );
-//   }
 	    if ($command == '/apakah') {
         $result = apakah($options);
         $balas = array(
