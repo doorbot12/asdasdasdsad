@@ -460,18 +460,18 @@ if($message['type']=='text') {
 				) 
 			); 
 	}
-            if ($command == 'Gombalin') {
-        $result = apakah($options);
-        $balas = array(
-            'replyToken' => $replyToken,
-            'messages' => array(
-                array(
-                    'type' => 'text',
-                    'text' => $result
-                )
+ //           if ($command == 'Gombalin') {
+ //       $result = apakah($options);
+//        $balas = array(
+ //           'replyToken' => $replyToken,
+  //          'messages' => array(
+ //               array(
+  //                  'type' => 'text',
+ //                   'text' => $result
+//                )
             )
-        );
-   }
+//        );
+//   }
 	    if ($command == '/apakah') {
         $result = apakah($options);
         $balas = array(
